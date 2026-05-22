@@ -1,8 +1,58 @@
-# Collaboration Demo Project
+Collaboration Demo Project 🚀
 
-This project is used to practice Git and GitHub collaboration workflows.
+این پروژه یک محیط سندباکس (Sandbox) برای تمرین و تسلط بر جریان‌های کاری (Workflows) گیت و گیت‌هاب در محیط‌های تیمی است. هدف از این مخزن، یادگیری تعامل صحیح در چرخه حیات توسعه نرم‌افزار است.
 
-## How to contribute
-- Open an issue
-- Create a branch
-- Submit a pull request
+🛠 جریان کاری پیشنهادی (Workflow)
+
+برای مشارکت در این پروژه، لطفاً گام‌های استاندارد زیر را دنبال کنید:
+
+
+
+
+
+ثبت موضوع (Issue): ابتدا یک Issue باز کنید و تغییر یا فیچری که قصد پیاده‌سازی آن را دارید، شرح دهید.
+
+
+
+ایجاد شاخه (Branching): بر اساس نام‌گذاری استاندارد، یک شاخه (Branch) جدید ایجاد کنید:
+
+git checkout -b feature/your-feature-name
+
+
+
+
+توسعه و کامیت: تغییرات خود را اعمال کرده و با پیام‌های کامیت دقیق (Conventional Commits) آن‌ها را ثبت کنید:
+
+git commit -m "feat: add user login module"
+
+
+
+
+ارسال تغییرات (Push): شاخه خود را به مخزن اصلی منتقل کنید:
+
+git push origin feature/your-feature-name
+
+
+
+
+درخواست ادغام (Pull Request): یک Pull Request باز کرده و منتظر بررسی (Code Review) بمانید.
+
+📋 قوانین مشارکت
+
+
+
+
+
+از کدهای تمیز و استاندارد پیروی کنید.
+
+
+
+پیام‌های کامیت باید گویا و با فرمت type: description باشند.
+
+
+
+قبل از ایجاد Pull Request، حتماً آخرین تغییرات شاخه main را با دستور git pull دریافت کنید تا از تداخل (Conflict) جلوگیری شود.
+
+
+
+این پروژه برای یادگیری توسعه‌دهندگان طراحی شده است؛ از مشارکت شما استقبال می‌شود!
